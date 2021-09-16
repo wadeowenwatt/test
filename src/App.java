@@ -7,7 +7,7 @@ public class App {
         System.out.println(a+b);
         Sum test = new Sum(a,b);
         System.out.println(test.tong());
-
+        
         
     }
 }

@@ -5,7 +5,9 @@ public class Sum {
         this.a = a;
         this.b = b;
     }
-    
+    int nhan() { 
+        return a*b;
+    }
     int tong() {
         return a+b;
     }
