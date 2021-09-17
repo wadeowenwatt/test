@@ -10,5 +10,7 @@ public class App {
         Sum test1 = new Sum(a,b,c); 
         System.out.println(test.tong());
         System.out.println(test1.tongba());
+        System.out.println(test.binhphuong());
+
     }
 }
