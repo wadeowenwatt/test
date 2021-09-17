@@ -1,6 +1,7 @@
 public class Sum {
-    int a; 
-    int b;
+    private int a; 
+    private int b;
+    private int c;
     Sum(int a, int b) {
         this.a = a;
         this.b = b;
@@ -10,5 +11,13 @@ public class Sum {
     }
     int tong() {
         return a+b;
+    }
+    Sum(int a, int b,int c){
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+    int tongba(){
+        return tong() + c;
     }
 }
