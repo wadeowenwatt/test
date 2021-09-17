@@ -12,5 +12,6 @@ public class App {
         System.out.println(test1.tongba());
         System.out.println(test.nhan());
         System.out.println(test1.nhanba());
+
     }
 }
