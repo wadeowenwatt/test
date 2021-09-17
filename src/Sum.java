@@ -20,4 +20,7 @@ public class Sum {
     int tongba(){
         return tong() + c;
     }
+    int nhanba(){
+        return a*b*c;
+    }
 }
