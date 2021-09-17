@@ -23,4 +23,7 @@ public class Sum {
     int nhanba(){
         return a*b*c;
     }
+    int binhphuong(){
+        return a*a +b*b;
+    }
 }
